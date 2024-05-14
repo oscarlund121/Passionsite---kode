@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "hind";
+  src: url(../fonts/HindSiliguri-Regular.woff2);
+}
+@font-face {
+  font-family: "basker";
+  src: url(../fonts/LibreBaskerville-Regular.woff2);
+}
+header ul {
+  color: white;
+  line-height: 1em;
+  background-color: #302319;
+  opacity: 50%;
+  border-radius: 5px;
+  font-family: "hind";
+  list-style: none;
+  margin: 0;
+  /* box-shadow: 0 12px 28px #92a3b3; */
+}
+.logo {
+  filter: contrast(100%);
+  width: 20%;
+  height: auto;
+  margin-right: 4em;
+}
+h1 {
+  font-size: 50px;
+  font-family: "basker";
+  color: #302319;
+}
+h2 {
+  font-size: 40px;
+  font-family: "basker";
+  color: #302319;
+}
+p {
+  font-family: "hind";
+  color: #302319;
+}
+img {
+  filter: contrast(70%);
+  /* box-shadow: 2px 2px 5px 0 #302319; */
+}
+img:hover {
+  filter: contrast(100%);
+  border-color: antiquewhite;
+  box-shadow: 2px 2px 3px #302319;
+  transition: all 0.5s linear;
+}
+.text_overlay {
+  font-family: "basker";
+  font-size: 30px;
+  color: #f7f7e6;
+}
+footer {
+  font-family: "hind";
+}
+.lottie {
+  border-radius: 1em;
+}
